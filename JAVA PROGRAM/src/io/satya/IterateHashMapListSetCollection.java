@@ -20,6 +20,7 @@ public class IterateHashMapListSetCollection {
 		System.out.println("PRINTING BY SECOND WAY TROUGH MAP.ENTRY");
 		Set<String> keySet = hmap.keySet();
 		Iterator<String> iterator = keySet.iterator();
+		
 		while (iterator.hasNext()) {
 			String key = iterator.next();
 			Integer value = hmap.get(key);

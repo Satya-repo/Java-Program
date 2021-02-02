@@ -24,18 +24,18 @@ public class CountDuplicateStringMap {
 			}
 		}
 		
-		/*Set<String> keySet = hmap.keySet();
+		Set<String> keySet = hmap.keySet();
 		for(String map:keySet){
 			System.out.println(map+ "  "+ hmap.get(map));
-		}*/
+		}
 		
-	/*	hmap.forEach((key,value) -> {
+		hmap.forEach((key,value) -> {
 		
 				System.out.print(key+ " ");
 				System.out.print(value);
 				System.out.println();
 		
-		});*/
+		});
 		
 		/*Set<Map.Entry<String, Integer>> entrySet = hmap.entrySet();
 		for(Map.Entry<String, Integer> entry : entrySet){

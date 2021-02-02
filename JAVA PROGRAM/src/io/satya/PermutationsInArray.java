@@ -1,0 +1,12 @@
+package io.satya;
+
+public class PermutationsInArray {
+
+	public static void main(String[] args) {
+		
+		int [] arr = {1,2,3};
+		
+
+	}
+
+}

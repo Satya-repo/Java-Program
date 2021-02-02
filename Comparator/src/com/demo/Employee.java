@@ -10,7 +10,6 @@ public class Employee implements Comparator<Employee>{
 	
 	public Employee() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Employee(String name, int id) {
 		super();

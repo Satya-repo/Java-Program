@@ -7,27 +7,25 @@ public class BinarySearchRecurssion {
 	public static void main(String[] args) {
 
 		int[] array = IntStream.range(1, 100).sorted().toArray();
-		binarySearch(array, 10);
-	}
 
-	private static void binarySearch(int[] array, int i) {
+		int low = 0;
+		int high = array.length - 1;
+		int x = search(array, 10, low,high);
 
-		int low = 0,high = array.length - 1;
-		
-		int x = search(array, i, low, high);
-		
 		if (x < 0)
 			System.out.println("ITEM NOT FOUND");
-		else 
+		else
 			System.out.println("ITEM FOUND ATT " + x);
 		
 	}
+
+	
 
 	private static int search(int[] array, int i, int low, int high) {
 
 		int mid = (low + high) / 2;
 		int index = -1;
-		System.out.println("value of mid is " + mid + "  value of I is "+i + "array[mid] is "+array[mid]);
+		System.out.println("value of mid is " + mid + "  value of I is " + i + "array[mid] is " + array[mid]);
 		if (array[mid] == i) {
 			index = mid;
 			return index;

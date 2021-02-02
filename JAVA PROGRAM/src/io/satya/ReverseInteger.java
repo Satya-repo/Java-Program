@@ -11,9 +11,9 @@ public class ReverseInteger {
 	private static void reverse(int number) {
 		int num = 0;
 		while(number>0){
-			num = number%10+num;
+			num = number%10;
 			number = number/10;
-			System.out.println(num);
+			System.out.print(num);
 		}
 		
 		
